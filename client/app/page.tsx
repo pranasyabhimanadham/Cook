@@ -6,7 +6,6 @@ import Section from "@/components/Section";
 import Recipes from "@/components/Recipes";
 import RecipeBlogs from "@/components/RecipeBlogs";
 import NewsLetter from "@/components/NewsLetter";
-import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { SectionProvider } from "@/context/SectionContext";
@@ -129,7 +128,6 @@ function Home() {
               <Recipes />
               <RecipeBlogs />
               <NewsLetter />
-              <Sponsors />
               <Footer />
             </section>
           </SectionProvider>
